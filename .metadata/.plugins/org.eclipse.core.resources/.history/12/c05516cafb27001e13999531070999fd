@@ -1,0 +1,11 @@
+package excecao;
+
+public class Excecao {
+	
+	Excecao() {
+		
+	}
+	
+	public static void main(String[] args)
+
+}

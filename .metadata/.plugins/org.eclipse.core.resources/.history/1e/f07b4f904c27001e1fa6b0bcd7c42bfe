@@ -1,0 +1,14 @@
+package banco;
+
+public class SistemaInterno {
+	
+	public void login(Autenticavel funcOrClient, int senha) {
+		if(funcOrClient.autentica(senha)) {
+			System.out.println("Passando o objeto criado usando como tipo a interface Autenticavel (autenticou)");
+		}
+		else {
+			System.out.println("Passando o objeto criado usando como tipo a interface Autenticavel (Não autenticou)");
+		}
+	}
+
+}

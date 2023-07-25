@@ -1,0 +1,19 @@
+package banco;
+
+public class ContaCorrente extends Conta {
+	
+	ContaCorrente(){
+		//Construtor
+		System.out.println("Conta corrente criada");
+	}
+	
+	
+	public boolean saca(double valor) {
+		if (this.getSaldo() >= (valor + 0.10)) {
+			this.setSaldo((valor + 30));
+			return true;
+		} else
+			return false;
+	}
+
+}

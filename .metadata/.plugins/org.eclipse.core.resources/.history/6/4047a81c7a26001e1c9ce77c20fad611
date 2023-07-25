@@ -1,0 +1,15 @@
+package banco;
+
+public class Funcionario {
+	private String nome;
+	private String cpf;
+	private double salario;
+	
+	Funcionario() {
+		//Construtor
+	}
+	
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+}

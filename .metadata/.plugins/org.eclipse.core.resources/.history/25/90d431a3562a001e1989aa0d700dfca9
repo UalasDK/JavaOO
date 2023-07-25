@@ -1,0 +1,6 @@
+package excecao;
+
+public class DivisaoNaoExata extends Exception {
+	
+
+}

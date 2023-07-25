@@ -1,0 +1,27 @@
+package banco;
+
+public class Cliente implements Autenticavel{
+	public String nome;
+	private String CPF;
+	private Conta contaDoCliente;
+	private int senha;
+	
+	public void setSenha(int senha) {
+		this.senha = senha;
+	}
+	public int getSenha() {
+		return this.senha;
+	}
+	
+	public boolean autentica(int senha) {
+		if(this.senha == senha) {
+			System.out.println("Cliente autenticado com sucesso");
+			return true;
+		}
+		else {
+			System.out.println("Senha errada, cliente não autenticado");
+			return false;
+		}
+	}
+
+}

@@ -1,0 +1,15 @@
+package excecao;
+
+public class ErrorMemoria {
+
+	public static void main(String[] args) {
+		Excecao teste;
+		for(int i = 0; i < 900000000; i++) {
+			teste = new Excecao();
+			System.out.println("Teste feito" + i + "  " + teste);
+			int[] matriz = new int[i][i];
+		}
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package banco;
+
+public class Gerente extends Funcionario {
+	private int senha;
+	private int numeroDeFuncionariosGerenciados;
+	
+	Gerente() {
+		//Construtor
+	}
+	
+	public boolean autentica(int senha) {
+		if(this.senha == nome) {
+			System.out.println("Acesso Permitido");
+			return true;
+		}
+		else {
+			System.out.println("Acesso Negado");
+			return false;
+		}
+	}
+}

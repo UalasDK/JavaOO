@@ -1,0 +1,10 @@
+package banco;
+
+public class Cliente implements Autenticavel{
+	private String nome;
+	private String CPF;
+	private Conta contaDoCliente;
+	
+	
+
+}

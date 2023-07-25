@@ -1,0 +1,10 @@
+package banco;
+
+public class ContaCorrente extends Conta {
+	
+	ContaCorrente(){
+		//Construtor
+		System.out.println("Conta corrente criada");
+	}
+
+}

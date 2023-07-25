@@ -1,0 +1,14 @@
+package banco;
+
+public class SistemaInterno {
+	
+	public void login(Autenticavel funcOrClient, int senha) {
+		if(funcOrClient.senha == senha) {
+			System.out.println("Acesso permitido");
+		}
+		else {
+			System.out.println("Acesso negado");
+		}
+	}
+
+}

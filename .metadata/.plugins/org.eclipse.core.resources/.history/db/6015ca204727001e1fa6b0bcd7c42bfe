@@ -1,0 +1,13 @@
+package banco;
+
+public class Cliente implements Autenticavel{
+	private String nome;
+	private String CPF;
+	private Conta contaDoCliente;
+	private int senha;
+	
+	boolean autentica(int senha) {
+		if(senha ==)
+	}
+
+}

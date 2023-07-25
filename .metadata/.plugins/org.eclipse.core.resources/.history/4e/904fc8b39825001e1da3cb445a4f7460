@@ -1,0 +1,12 @@
+
+public class Conta {
+	private double saldo;
+	private String titular;
+	private int numero;
+	private String agencia;
+	
+	
+	void deposita(double valor) {
+		
+	}
+}

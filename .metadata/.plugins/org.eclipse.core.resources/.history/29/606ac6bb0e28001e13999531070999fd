@@ -1,0 +1,19 @@
+package excecao;
+
+import java.util.Scanner;
+
+public class ThrowsException {
+	
+	public static void main(String[] args) {
+		System.out.println("Entre com um número decimal\n");
+		
+		
+	}
+	
+	public static double lerNumero() throws Exception {
+		Scanner scan =  new Scanner(System.in);
+		double num = scan.nextDouble();
+		return num;
+	}
+
+}

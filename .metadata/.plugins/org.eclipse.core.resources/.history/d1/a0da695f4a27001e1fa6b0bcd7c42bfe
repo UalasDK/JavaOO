@@ -1,0 +1,9 @@
+package banco;
+
+public class SistemaInterno {
+	
+	public void login(Autenticavel funcOrClient, int senha) {
+		if(funcOrClient.getSenha() )
+	}
+
+}

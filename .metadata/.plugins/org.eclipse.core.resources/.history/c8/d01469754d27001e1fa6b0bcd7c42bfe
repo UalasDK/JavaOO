@@ -1,0 +1,8 @@
+package banco;
+
+public interface Autenticavel {
+	public int teste;
+	
+	boolean autentica(int senha);
+
+}

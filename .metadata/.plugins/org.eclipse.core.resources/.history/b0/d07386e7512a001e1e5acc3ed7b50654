@@ -1,0 +1,5 @@
+package excecao;
+
+public class MinhaExcecao {
+	int[] numeros = {4, 8, 16, 32, 64};
+}

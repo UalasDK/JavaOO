@@ -1,0 +1,10 @@
+package excecao;
+
+public class MinhaExcecao {
+	int[] numeros = {4, 8, 5, 16, 32, 21, 64};
+	int[] demon = {2, 0, 4, 8, 0, 2, 3};
+	
+	for(int i = 0; i < numeros.lenght; i++) {
+		
+	}
+}

@@ -1,0 +1,13 @@
+package excecao;
+
+public class ErrorMemoria {
+
+	public static void main(String[] args) {
+		Excecao teste;
+		for(int i = 0; i < 10000000; i++) {
+			
+		}
+
+	}
+
+}

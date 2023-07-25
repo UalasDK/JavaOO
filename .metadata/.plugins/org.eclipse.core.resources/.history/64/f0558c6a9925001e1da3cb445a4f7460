@@ -1,0 +1,22 @@
+
+public class Conta {
+	private double saldo;
+	private String titular;
+	private int numero;
+	private String agencia;
+	
+	
+	boolean deposita(double valor) {
+		if(this.saldo >= valor) {
+			this.saldo -= valor;
+			return true;
+		}
+		else
+			return false;
+			
+	}
+	
+	boolean saca(double valor) {
+		this.saldo -= valor;
+	}
+}
